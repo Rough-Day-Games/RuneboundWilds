@@ -8,7 +8,6 @@ saves/
 schematics/
 .curseclient
 command_history.txt
-minecraftinstance.json
 observable_announce
 options.txt
 patchouli_data.json
@@ -24,6 +23,6 @@ datapacks/
 moonlight-global-datapacks/
 
 # These should be CF project references (in `manifest.json` and not as direct file references)
-mods/
+# mods/ # allowed to make it easier to boot the instance after cloning the repository
 resourcepacks/
 shaderpacks/
