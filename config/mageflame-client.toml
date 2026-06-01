@@ -1,0 +1,6 @@
+###############################
+#Client / GUI Properties
+###############################
+[gui]
+	# Enable / disable gui display of light entity lifespan.
+	enableLifespanDisplay = true

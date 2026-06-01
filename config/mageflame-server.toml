@@ -1,0 +1,36 @@
+###############################
+#Flame / Torch Entity Properties
+###############################
+[entities]
+	# The lifespan of a Bubble Flame spell/entity in ticks.
+	#Ex. 20 ticks * 60 seconds * 5 = 6000 = 5 minutes.
+	# Default: 12000
+	# Range: 1200 ~ 72000
+	mageFlameLifespan = 12000
+	# The lifespan of a Lesser Revelation spell/entity in ticks.
+	# Default: 18000
+	# Range: 1200 ~ 72000
+	lesserRevelationLifespan = 18000
+	# The lifespan of a Greater Revelation spell/entity in ticks.
+	# Default: 36000
+	# Range: 1200 ~ 72000
+	greaterRevelationLifespan = 36000
+	# The lifespan of a Glowglob spell/entity in ticks.
+	# Default: 12000
+	# Range: 1200 ~ 72000
+	glowglobLifespan = 12000
+	# Enable infinite lifespan for the Ember Hound entity.
+	isEmberHoundLifespanInfinite = true
+	# The lifespan of a Ember Hound spell/entity in ticks.
+	# Note - this is only activated if infinite lifespan = false.
+	# Default: 72000
+	# Range: 1200 ~ 72000
+	emberHoundLifespan = 72000
+	# The max number of concurrent summoned entities per player.
+	# Default: 1
+	# Range: 1 ~ 10
+	maxSummonedEntitiesPerPlayer = 1
+	# The number of ticks before the next light update.
+	# Default: 2
+	# Range: 1 ~ 20
+	updateLightTicks = 2

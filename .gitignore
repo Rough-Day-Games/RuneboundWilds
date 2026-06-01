@@ -1,0 +1,29 @@
+# Personal files and instance data
+Distant_Horizons_server_data/
+downloads/
+dynamic-resource-pack-cache/
+local/
+logs/
+saves/
+schematics/
+.curseclient
+command_history.txt
+minecraftinstance.json
+observable_announce
+options.txt
+patchouli_data.json
+servers.dat
+servers.dat_old
+user-prefs.json
+
+# Dev files
+*dump/
+
+# Unnecessary files
+datapacks/
+moonlight-global-datapacks/
+
+# These should be CF project references (in `manifest.json` and not as direct file references)
+mods/
+resourcepacks/
+shaderpacks/
